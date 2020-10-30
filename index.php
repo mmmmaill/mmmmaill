@@ -6,7 +6,7 @@
         <h1>Apissara janpo</h1>
         <p>My nickname is mail</p>
         <img src="cat.jpg">
-        <img src="cat.jpg">
+        <img src="cat2.jpg">
         
         <br>
         <a href="https://www.pinterest.com/mariathorizon/%E0%B9%81%E0%B8%A1%E0%B8%A7/">This is a link</a>
