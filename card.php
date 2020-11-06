@@ -45,7 +45,7 @@
                 <div class="card" style="width: 100%; height: 100%;">
                     <img class="card-img-top" src="pic7.jpg">
                     <div class="card-body">
-                        <h4 class="card-title">Chiangrai3</h4>
+                        <h4 class="card-title">Germany</h4>
                         <p class="card-text">Travel at Germany.
                         <p>
                         <div class="card-footer">
