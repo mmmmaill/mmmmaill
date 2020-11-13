@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>ITF Lab</title>
+<title>ITF Lab 1</title>
 </head>
 <body>
 <?php
