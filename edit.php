@@ -1,6 +1,6 @@
 <?php
 $conn = mysqli_init();
-mysqli_real_connect($conn, 'itf63.mysql.database.azure.com', 'kopsira@itf63', 'GQFvju56', 'itflab', 3306);
+mysqli_real_connect($conn, 'ntpz.mysql.database.azure.com', 'chibebiiby@ntpz', 'Chibe8888', 'itflab', 3306);
 if (mysqli_connect_errno($conn))
 {
     die('Failed to connect to MySQL: '.mysqli_connect_error());
@@ -14,9 +14,9 @@ if(isset($_POST['submit'])){
  $Name=$_POST['name'];
  $Comment=$_POST['comment'];
  $Link=$_POST['link'];
- 
+
  $sql = "UPDATE guestbook SET Name='$Name', Comment='$Comment', Link='$Link' WHERE ID='$ID'";
- 
+
  if(mysqli_query($conn, $sql)){
   header("location:show.php");
  }
@@ -33,10 +33,10 @@ if(isset($_POST['submit'])){
     Name:<br>
     <input type="text" name = "name" id="idName" value="<?=$result['Name']; ?>"> <br>
     Comment:<br>
-    <textarea rows="10" cols="20" name = "comment" id="idComment"><?php echo $result['Comment']; ?></textarea><br>  
+    <textarea rows="10" cols="20" name = "comment" id="idComment"><?php echo $result['Comment']; ?></textarea><br>
     Link:<br>
     <input type="text" name = "link" id="idLink" value="<?=$result['Link']; ?>"> <br><br>
     <input type="submit" name="submit" id="commentBtn">
-  </form> 
+  </form>
 </body>
 </html>
