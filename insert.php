@@ -10,7 +10,7 @@
         $w = $_GET['W'];
         $h = $_GET['H'];
         $bmi = ($w)/(($h/100)*($h/100));
-        $sql = "INSERT INTO bmiDB (name , height , weight , bmi) VALUES ('$n', '$w', '$h' , '$bmi')";
+        $sql = "INSERT INTO databasee(name , height , weight , bmi) VALUES ('$n', '$w', '$h' , '$bmi')";
    
         if (mysqli_query($conn, $sql)) {
     header("location:show.php");
